@@ -7,11 +7,11 @@ variable "region" {
 }
 
 variable "domain" {
-  type = "string"
+  type = string
 }
 
 variable "prefix" {
-  type = "string"
+  type = string
   default = "anthaathi"
 }
 
