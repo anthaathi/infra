@@ -36,7 +36,7 @@ resource "google_container_node_pool" "primary_nodes" {
       "https://www.googleapis.com/auth/monitoring",
     ]
 
-    disk_type = "pd-ssd"
+    disk_type = var.disk_type
 
     disk_size_gb = var.node_storage
 

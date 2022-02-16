@@ -24,3 +24,7 @@ variable "node_storage" {
   default = 250
   description = "Storage for kubernetes nodes"
 }
+
+variable "disk_type" {
+  default = "pd-ssd"
+}
